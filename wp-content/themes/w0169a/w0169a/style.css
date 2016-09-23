@@ -127,33 +127,13 @@ mark {
 small {
 	font-size: 80%;
 }
-section#meta-2 {
+#secondary{
+	display: block;
 	border-radius: 20px;
-	border:solid;
-	float: left;
-	margin: 2px;
-	background: rosybrown;
-}
-section#categories-2 {
-	border-radius: 20px;
-	border:solid;
+	border: solid;
 	float: left;
 }
-section#archives-2 {
-	border-radius: 20px;
-	border:solid;
-	float: left;
-}
-section#recent-comments-2 {
-	border-radius: 20px;
-	border:solid;
-	float: left;
-}
-section#recent-posts-2 {
-	border-radius: 20px;
-	border:solid;
-	float: left;
-}
+
 sub,
 sup {
 	font-size: 75%;
