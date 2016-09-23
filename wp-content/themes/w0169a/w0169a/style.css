@@ -610,7 +610,7 @@ a:focus,
 a:active {
 
 	background-color: purple;
-	color: green;
+	color: #be3631;
 }
 
 a:focus {
