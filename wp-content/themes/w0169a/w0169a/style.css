@@ -120,14 +120,40 @@ h1 {
 }
 
 mark {
-	background: #ff0;
+
 	color: #000;
 }
 
 small {
 	font-size: 80%;
 }
-
+section#meta-2 {
+	border-radius: 20px;
+	border:solid;
+	float: left;
+	margin: 2px;
+	background: rosybrown;
+}
+section#categories-2 {
+	border-radius: 20px;
+	border:solid;
+	float: left;
+}
+section#archives-2 {
+	border-radius: 20px;
+	border:solid;
+	float: left;
+}
+section#recent-comments-2 {
+	border-radius: 20px;
+	border:solid;
+	float: left;
+}
+section#recent-posts-2 {
+	border-radius: 20px;
+	border:solid;
+	float: left;
+}
 sub,
 sup {
 	font-size: 75%;
@@ -292,8 +318,9 @@ h1>a{
 
 }
 h2 {
-	background-color: lightblue;
+	background-color: #B8860B;
 	text-align: center;
+	height: 32px;
 
 }
 
@@ -566,17 +593,24 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	text-decoration: underline;
+	color: #a00;
 }
-
 a:visited {
-	;
+	color: #844;
+}
+a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: white;
+	background: #800;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+
+	background-color: purple;
+	color: green;
 }
 
 a:focus {
@@ -815,10 +849,11 @@ a:active {
 
 .hentry {
 	width:410px;
+	height: 300px;
 	padding:1px;
 
 	margin: 15px ;
-	background: top center lightcoral;
+	background: top center #800080;
 	border-radius: 7px ;
     float: right;
 }
