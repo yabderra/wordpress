@@ -47,7 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Normalize
 --------------------------------------------------------------*/
 html {
-	font-family: sans-serif;
+	font-family:fantasy;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
@@ -71,7 +71,7 @@ nav,
 section,
 summary {
 	display: block;
-	background: rosybrown;
+
 }
 
 audio,
@@ -93,10 +93,15 @@ template {
 }
 
 a {
-	background-color: transparent;
+	color: #ca4a1f;
+	font-family: "Wide Latin";
+
+
 }
 
-a:active,
+a:active{
+	color: #ca4a1f;
+}
 a:hover {
 	outline: 0;
 }
@@ -371,8 +376,13 @@ html {
 *,
 *:before,
 *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-	box-sizing: inherit;
-	background: rosybrown;
+
+	background-image:url(../w0169a/images/fond.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 2000px ;
+
 }
 
 
@@ -437,7 +447,7 @@ img {
 	float: right;
 	width: 250px;
 	height: 180px;
-	margin-right: 80px;
+	margin-right: 27px;
 
 }
 desc {
@@ -572,29 +582,25 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-a {
-	text-decoration: underline;
-	color: #a00;
-}
+
+
 a:visited {
-	color: #844;
+	color: #ad5d1e;
+
 }
 a:hover, a:focus, a:active {
-	text-decoration: none;
-	color: white;
-	background: #800;
+
 }
 
 a:hover,
 a:focus,
 a:active {
-
-	background-color: purple;
-	color: #be3631;
+	color: #8a6d3b;
 }
 
 a:focus {
 	outline: thin dotted;
+
 }
 
 a:hover,
@@ -662,6 +668,7 @@ a:active {
 .main-navigation ul ul a:hover,
 .main-navigation ul ul a.focus {
 }
+
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
@@ -733,7 +740,7 @@ a:active {
 	border-radius: 3px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
-	color: #21759b;
+	color: #8a6d3b;
 	display: block;
 	font-size: 14px;
 	font-size: 0.875rem;
@@ -828,14 +835,15 @@ a:active {
 }
 
 .hentry {
-	width:410px;
-	height: 300px;
+	width:310px;
+	height: 310px;
 	padding:1px;
 
 	margin: 15px ;
-	background: top center #800080;
+
 	border-radius: 7px ;
     float: right;
+	border: 1px solid black;
 }
 
 .byline,
