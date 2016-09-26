@@ -486,6 +486,7 @@ table {
 	width: 100%;
 }
 .entry-content p:nth-of-type(2) {
+	float: left;
 
 
 }
@@ -862,16 +863,13 @@ a:active {
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
-
 }
 
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
 }
-.comment-form{
-	margin-top: 300px;
-}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
